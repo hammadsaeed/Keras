@@ -10,6 +10,9 @@ Firstly we need to install nvidia driver I personally recomend nvidia 396. To in
 '''
 sudo apt-get install nvidia-396
 '''
+```
+sudo apt-get install nvidia-396
+```
 
 I recommended installing cuda 9.0 or 9.1 as 9.2 is not fully supported and you might run into mulitple errors when playing around with tensorflow
 
