@@ -8,7 +8,7 @@ To get started we need to install CUDA and CUDNN if you want to use your interna
 Firstly we need to install nvidia driver I personally recomend nvidia 390. To install that open up terminal and type:
 
 ```
-$ sudo apt-get install nvidia-390
+ sudo apt-get install nvidia-390
 ```
 
 I recommended installing cuda 9.0 or 9.1 as 9.2 is not fully supported and you might run into mulitple errors when playing around with tensorflow
@@ -38,4 +38,11 @@ Press Ctrl+X to exit out make sure you press save when exiting out
 ```
 source ~/.bashrc
 ```
-
+8. Reboot you pc and verify nvidia and cuda drivers are install properly this will be done by:
+```
+cat /proc/driver/nvidia/version
+```
+and for cuda
+```
+nvcc -V
+```
