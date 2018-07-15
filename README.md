@@ -46,3 +46,5 @@ and for cuda
 ```
 nvcc -V
 ```
+9. Now you need to install CUDNN to do that firstly you need register for an [nvidia develper account](https://developer.nvidia.com/cudnn)
+10. 
