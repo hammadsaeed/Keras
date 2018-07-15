@@ -17,7 +17,7 @@ I recommended installing cuda 9.0 or 9.1 as 9.2 is not fully supported and you m
 2. Download the local runfile. Make sure you select the correct operating system in this tutorial i will be using linix
 3. Navigate to the runfile using the cd commond for instance if its on the desktop type:
 ```
-cd Desktop
+cd Desktop/
 ```
 4. To run the .run file type in:
 ```
@@ -58,3 +58,23 @@ nvcc -V
  sudo cp cuda/include/cudnn.h /usr/local/cuda/include/
  ```
 ## Setting up a virtaul enviornment 
+1. To install a virtual enviornment firstly type:
+```
+apt-get install python3-venv
+ ```
+2. Name your virtual enviornment 
+```
+virtualenv --system-site-packages ~/keras
+ ```
+3. To activate the virtual enviornment type:
+```
+source ~/keras/bin/activate
+ ```
+4. Now install tensorflow by using this command:
+```
+pip install --upgrade tensorflow-gpu
+ ```
+5. Now install Keras Library:
+```
+pip install keras
+ ```
