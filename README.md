@@ -57,3 +57,4 @@ nvcc -V
  sudo cp cuda/lib64/* /usr/local/cuda/lib64/
  sudo cp cuda/include/cudnn.h /usr/local/cuda/include/
  ```
+## Setting up a virtaul enviornment 
