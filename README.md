@@ -46,5 +46,14 @@ and for cuda
 ```
 nvcc -V
 ```
-9. Now you need to install CUDNN to do that firstly you need register for an [nvidia develper account](https://developer.nvidia.com/cudnn)
-10. 
+9. Now you need to install cuDNN to do that firstly you need register for an [nvidia develper account](https://developer.nvidia.com/cudnn)
+10. Now download cuDNN 7.1 for linix
+11. Once downloaded navigate to that folder and unpack the file
+```
+ tar -xzvf cudnn-8.0-linux-x64-v5.1.tgz
+ ```
+ Copy cuDNN files to cuda folder
+ ```
+ sudo cp cuda/lib64/* /usr/local/cuda/lib64/
+ sudo cp cuda/include/cudnn.h /usr/local/cuda/include/
+ ```
