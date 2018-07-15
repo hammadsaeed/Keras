@@ -15,4 +15,8 @@ I recommended installing cuda 9.0 or 9.1 as 9.2 is not fully supported and you m
 
 1. Go to Cuda tool kit and scroll down to [legacy releases](https://developer.nvidia.com/cuda-toolkit-archive)
 2. Download the local runfile. Make sure you select the correct operating system in this tutorial i will be using linix
-3. 
+3. Navigate to the runfile using the cd commond for instance if its on the desktop:
+```
+cd Desktop
+```
+4.
