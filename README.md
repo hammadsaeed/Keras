@@ -24,4 +24,18 @@ cd Desktop
 sudo sh cuda_9.1.85_387.26_linux.run 
 ```
 5. Make sure you press N when it asks to install the nvidia drivers as we have previosuly installed them.
-6. 
+6. Once cuda is installed we need to open the .bashrc for that type in:
+```
+nano ~/.bashrc
+```
+and then add these lines at the end of the file (this is done so that libs such as tensorflow can locate cuda) :
+```
+export PATH=/usr/local/cuda-9.1/bin${PATH:+:${PATH}}
+```
+Press Ctrl+X to exit out make sure you press save when exiting out
+
+7. Run the following command so that the changes are applied:
+```
+source ~/.bashrc
+```
+
