@@ -72,9 +72,22 @@ source ~/keras/bin/activate
  ```
 4. Now install tensorflow by using this command:
 ```
-pip install --upgrade tensorflow-gpu
+pip3 install --upgrade tensorflow-gpu
  ```
 5. Now install Keras Library:
 ```
-pip install keras
+pip3 install keras
+ ```
+6. Finally to test everthing create a text file with 
+
+import tensorflow as tf
+import keras
+import numpy as np
+import scipy
+
+sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
+
+7. Save it as test.py and run it using:
+```
+python3 test.py
  ```
