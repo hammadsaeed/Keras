@@ -60,7 +60,7 @@ nvcc -V
 ## Setting up a virtaul enviornment 
 1. To install a virtual enviornment firstly type:
 ```
-apt-get install python3-venv
+sudo apt-get install python3-venv
  ```
 2. Name your virtual enviornment 
 ```
